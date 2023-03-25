@@ -1,0 +1,38 @@
+/*Inside here is css*/
+
+/*rule has 3 parts 
+selector - grabbing the element or elements on the page
+rule - property and value
+*/
+h1 {
+    /*font color should be green*/
+    color: green;
+}
+/*this selector matches all images on the page*/
+img {
+    height: 200px;
+    width: 300px;
+}
+
+/*select by id using #*/
+#pink{
+    color: pink;
+    background-color: blue;
+}
+#blue{
+    color: blue;
+    
+}
+#yellow{
+    color: black;
+    background-color: yellow;
+}
+/*class selector uses .*/
+.price {
+    color: green;
+    font-weight: bold;
+}
+.sold{
+    color: red;
+    font-weight: bolder;
+}
